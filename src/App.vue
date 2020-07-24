@@ -4,7 +4,7 @@
         <div class="block-lg">
           <div class="block-sm block-sm__content-parent">
             <h1>DOOS & KOOKER</h1>
-            <p>Funk forged in valhalla by two hot-headed dutchmen. Join the journey into this jazzy abbys by surrendering to the swingin’ soul shattering sounds of DOOS & KOOKER.</p>
+            <p>Funk forged in Valhalla delivered by two hot-headed dutchmen. Join our journey into this jazzy abyss by surrendering to the swingin’ soul shattering sounds of DOOS & KOOKER.</p>
           </div>
           <div class="block-sm block-sm__content-parent">
             <img src="/img/vinyl.svg" alt="clipart vinyl">
@@ -25,7 +25,7 @@
           <div class="block-sm">
             <div class="block-tny"><img src="/img/square.svg" alt="transparent square with thick border" ></div>
             <div class="block-tny"></div>
-            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are amazing!<br>- you</h2></div>
+            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>Unshaven, unaware and incomprehensible.</h2></div>
           </div>
           <img class="block-sm" src="/img/K.webp" alt="headshot KOOKER" onerror="this.onerror=null; this.src='/img/K.png'">
           <img class="block-sm" src="/img/D.jpg" alt="DOOS drinking coffee" >
