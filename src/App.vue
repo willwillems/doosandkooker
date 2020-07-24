@@ -25,7 +25,7 @@
           <div class="block-sm">
             <div class="block-tny"><img src="/img/square.svg" alt="" ></div>
             <div class="block-tny"></div>
-            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are fucking incredible.</h2></div>
+            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are amazing. <br>- you</h2></div>
           </div>
           <img class="block-sm" src="/img/K.png" alt="" >
           <img class="block-sm" src="/img/D.png" alt="" >
@@ -76,7 +76,7 @@ body {
 }
 
 #app {
-  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -87,7 +87,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial Black";
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: 900;
   line-height: 1em;
   margin: .25em 0;
 }
