@@ -15,7 +15,7 @@
             <a class="block-tny block-tny--full-width block-tny--inverted" href="mailto:bookings@doosandkooker.com">CONTACT</a>
           </div>
           <div class="block-sm">
-            <img class="block-tny block-tny--full-width" src="/img/halves.svg" alt="circle halves bauhaus animation" >
+            <img style="border-right: none;" class="block-tny block-tny--full-width" src="/img/halves.svg" alt="circle halves bauhaus animation" >
             <!-- <div class="block-tny block-tny--full-width"></div> -->
             <div class="block-tny"></div>
             <img class="block-tny" src="/img/wave.svg" alt="animated wave graphic" >
@@ -154,8 +154,10 @@ main {
   align-items: center;
   justify-content: center;
 
+  object-fit: cover;
+
   /* text-align: center; */
-  line-height:160px;
+  line-height: 160px;
 
   border: 1px solid var(--base-color);
   margin: -1px;
@@ -169,7 +171,7 @@ main {
 }
 
 .block-tny--full-width {
-  width: 340px;
+  width: 342px;
 }
 
 .block-tny--inverted {
