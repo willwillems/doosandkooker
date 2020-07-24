@@ -40,6 +40,7 @@
     <footer>
       <div>✔︎ Developed in-house by <a href="https://willwillems.com">this guy</a>.</div>
     </footer>
+    <div class="swiss-overlay"></div>
   </div>
 </template>
 
@@ -56,7 +57,7 @@ export default {
 
 <style>
 :root {
-  --main-color: #DBAC79;
+  --main-color: #E5AC6F;
   --base-color: black;
 }
 
@@ -193,10 +194,12 @@ a.block-tny:hover {
 img {
   max-width: 100%;
   max-height: 100%;
+
+  filter: saturate(1.15); /* temp fix! */
 }
 
 img:hover {
-  filter: hue-rotate(-6deg);
+  filter: saturate(1.15) hue-rotate(-6deg);
 }
 
 footer {
@@ -205,6 +208,19 @@ footer {
 
 footer a {
   color: black;
+}
+
+.swiss-overlay {
+  pointer-events: none;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-image: url('/img/noise.jpg');
+  opacity: 0.06;
 }
 
 </style>
