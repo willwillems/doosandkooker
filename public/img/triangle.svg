@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="170px" viewBox="0 0 170 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Path-8" fill="#000000">
+      <polygon id="triangle" points="0 73 170 0 121 174"></polygon>
+  </g>
+
+  <animate 
+    xlink:href="#triangle"
+    attributeName="points"
+    begin="0s"
+    dur="20s"
+    values="0   73    170 0     121 170;
+            0   0     170 170   0   170;
+            170 0     0   170   0   0;
+            170 170   0   0     170 0;
+            0   170   0   0     170 170;
+            0   73    170 0     121 170;"
+    keyTimes="0; 0.3; 0.5; 0.8; 0.9; 1"
+    repeatCount="indefinite"
+    id="circ-anim" />
+</svg>
