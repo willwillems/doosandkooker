@@ -10,31 +10,31 @@
             <img src="/img/vinyl.svg" alt="">
           </div>
           <div class="block-sm">
-            <div class="block-tny">ggg</div>
+            <div class="block-tny"></div>
             <div class="block-tny block-tny__content-parent"><img src="/img/thing.svg" alt="" ></div>
-            <a class="block-tny block-tny--full-width block-tny--inverted">CONTACT</a>
+            <a class="block-tny block-tny--full-width block-tny--inverted" href="mailto:bookings@doosandkooker.com">CONTACT</a>
           </div>
           <div class="block-sm">
-            <div class="block-tny block-tny--full-width">ggg</div>
-            <div class="block-tny">ggg</div>
-            <div class="block-tny">ggg</div>
+            <img class="block-tny block-tny--full-width" src="/img/halves.svg" alt="" >
+            <!-- <div class="block-tny block-tny--full-width"></div> -->
+            <div class="block-tny"></div>
+            <img class="block-tny" src="/img/wave.svg" alt="" >
           </div>
         </div>
         <div class="block-lg">
           <div class="block-sm">
-            <div class="block-tny"><img src="/img/triangle.svg" alt="" ></div>
-            <div class="block-tny">ggg</div>
-            <div class="block-tny">ggg</div>
-            <div class="block-tny">ggg</div>
+            <div class="block-tny"><img src="/img/square.svg" alt="" ></div>
+            <div class="block-tny"></div>
+            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are fucking incredible.</h2></div>
           </div>
+          <img class="block-sm" src="/img/K.png" alt="" >
+          <img class="block-sm" src="/img/D.png" alt="" >
           <div class="block-sm">
             <div class="block-tny"></div>
-            <div class="block-tny block-tny--inverted"><h1>HH</h1></div>
+            <a class="block-tny block-tny--inverted" href="https://herres.haus"><h1>HH</h1></a>
             <img class="block-tny" src="/img/circle.svg" alt="" >
             <div class="block-tny"></div>
           </div>
-          <img class="block-sm" src="/img/D.png" alt="" >
-          <img class="block-sm" src="/img/preview.png" alt="" >
         </div>
     </main>
     <footer>
@@ -89,6 +89,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Arial Black";
   line-height: 1em;
+  margin: .25em 0;
 }
 
 main {
@@ -145,11 +146,13 @@ main {
   align-items: center;
   justify-content: center;
 
-  text-align: center;
+  /* text-align: center; */
   line-height:160px;
 
   border: 1px solid var(--base-color);
   margin: -1px;
+
+  transition: transform .3s ease-out;
 }
 
 .block-tny__content-parent {
@@ -164,6 +167,16 @@ main {
 .block-tny--inverted {
   color: var(--main-color);
   background-color: var(--base-color);
+}
+
+a.block-tny {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+a.block-tny:hover {
+  transform: scale(1.1);
 }
 
 </style>

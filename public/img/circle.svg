@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="170px" height="170px" viewBox="0 0 170 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Circle</title>
-    <g id="oval" fill="#000000">
-        <circle id="Oval" cx="85" cy="85" r="85"></circle>
+    <g fill="#000000">
+        <circle id="oval" cx="85" cy="85" r="85"></circle>
     </g>
 
     <animate 
       xlink:href="#oval"
-      attributeName="cy"
+      attributeName="r"
       begin="0s"
-      dur="20s"
+      dur="10s"
       values="85;
               85;
               0;
               85;
               85;"
-      keyTimes="0; 0.3; 0.5; 0.8; 1"
+      keyTimes="0; 0.45; 0.5; 0.55; 1"
       repeatCount="indefinite"
       id="circ-anim" />
 </svg>
