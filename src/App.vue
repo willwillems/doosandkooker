@@ -172,7 +172,7 @@ main {
 }
 
 .block-tny--full-width {
-  width: 342px;
+  width: 340px;
 }
 
 .block-tny--inverted {
