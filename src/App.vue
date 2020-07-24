@@ -189,6 +189,7 @@ a.block-tny {
 a.block-tny:hover {
   transform: scale(1.1);
   background-color: #964141;
+  z-index: 1;
 }
 
 img {
