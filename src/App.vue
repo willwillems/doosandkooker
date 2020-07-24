@@ -7,28 +7,28 @@
             <p>Funk forged in valhalla by two hot-headed dutchmen. Join the journey into this jazzy abbys by surrendering to the swingin’ soul shattering sounds of DOOS & KOOKER.</p>
           </div>
           <div class="block-sm block-sm__content-parent">
-            <img src="/img/vinyl.svg" alt="">
+            <img src="/img/vinyl.svg" alt="clipart vinyl">
           </div>
           <div class="block-sm">
             <div class="block-tny"></div>
-            <div class="block-tny block-tny__content-parent"><img src="/img/thing.svg" alt="" ></div>
+            <div class="block-tny block-tny__content-parent"><img src="/img/thing.svg" alt="volume knob animation" ></div>
             <a class="block-tny block-tny--full-width block-tny--inverted" href="mailto:bookings@doosandkooker.com">CONTACT</a>
           </div>
           <div class="block-sm">
-            <img class="block-tny block-tny--full-width" src="/img/halves.svg" alt="" >
+            <img class="block-tny block-tny--full-width" src="/img/halves.svg" alt="circle halves bauhaus animation" >
             <!-- <div class="block-tny block-tny--full-width"></div> -->
             <div class="block-tny"></div>
-            <img class="block-tny" src="/img/wave.svg" alt="" >
+            <img class="block-tny" src="/img/wave.svg" alt="animated wave graphic" >
           </div>
         </div>
         <div class="block-lg">
           <div class="block-sm">
-            <div class="block-tny"><img src="/img/square.svg" alt="" ></div>
+            <div class="block-tny"><img src="/img/square.svg" alt="transparent square with thick border" ></div>
             <div class="block-tny"></div>
-            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are amazing. <br>- you</h2></div>
+            <div class="block-tny block-tny--full-width block-tny__content-parent"><h2>These guys are amazing!<br>- you</h2></div>
           </div>
-          <img class="block-sm" src="/img/K.png" alt="" >
-          <img class="block-sm" src="/img/D.png" alt="" >
+          <img class="block-sm" src="/img/K.webp" alt="headshot KOOKER" onerror="this.onerror=null; this.src='/img/K.png'">
+          <img class="block-sm" src="/img/D.jpg" alt="DOOS drinking coffee" >
           <div class="block-sm">
             <div class="block-tny"></div>
             <a class="block-tny block-tny--inverted" href="https://herres.haus"><h1>HH</h1></a>
@@ -38,6 +38,7 @@
         </div>
     </main>
     <footer>
+      <div>✔︎ Developed in-house by <a href="https://willwillems.com">this guy</a>.</div>
     </footer>
   </div>
 </template>
@@ -72,6 +73,7 @@ html, body {
 }
 
 body {
+  text-transform: uppercase;
   padding: 48px 12px;
 }
 
@@ -91,6 +93,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 1em;
   margin: .25em 0;
+}
+
+p {
+  margin: .75em 0;
+  line-height: 1.35em;
 }
 
 main {
@@ -178,6 +185,24 @@ a.block-tny {
 
 a.block-tny:hover {
   transform: scale(1.1);
+  background-color: #964141;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img:hover {
+  filter: hue-rotate(-6deg);
+}
+
+footer {
+  padding: 24px 12px;
+}
+
+footer a {
+  color: black;
 }
 
 </style>
