@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: .25em 0;
 }
 
+h2 {
+  line-height: 1.2em;
+}
+
 p {
   margin: .75em 0;
   line-height: 1.35em;
